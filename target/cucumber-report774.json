@@ -1,0 +1,52 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Test my POST request test",
+        "description": "",
+        "id": "first-rest-assured-test-post;test-my-post-request-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 34776679,
+              "error_message": "java.nio.file.NoSuchFileException: C:\\Users\\admin\\gitCucuRestAssured\\CucuRestAssured\\src\\test\\java\\com\\basic\\postFromTextFileSD\\user.json\r\n\tat sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)\r\n\tat sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)\r\n\tat sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)\r\n\tat sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)\r\n\tat java.nio.file.Files.newByteChannel(Files.java:361)\r\n\tat java.nio.file.Files.newByteChannel(Files.java:407)\r\n\tat java.nio.file.Files.readAllBytes(Files.java:3152)\r\n\tat com.basic.postUpdatedJsonSD.MyPostFromTextFile.user_hit_the_post_request_with_json_data(MyPostFromTextFile.java:32)\r\n\tat ✽.Given user hit the post request with \"Anil\" name(PostUpdatedJson.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user hit the post request with \"Anil\" name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Anil",
+                  "offset": 32
+                }
+              ],
+              "location": "MyPostFromTextFile.user_hit_the_post_request_with_json_data(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user validate the id is not null",
+            "match": {
+              "location": "MyPostFromTextFile.user_validate_the_id_is_not_null()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "First Rest Assured test POST",
+    "description": "",
+    "id": "first-rest-assured-test-post",
+    "keyword": "Feature",
+    "uri": "PostUpdatedJson.feature"
+  }
+]

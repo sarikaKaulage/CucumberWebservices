@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.basic.datadrivenForGetSD.RunnerGETRequestTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 6.72 sec <<< FAILURE!
+Then user checks data at path "MRData.CircuitTable.Circuits[10].circuitId" having value "Manoco" in jason(| MRData.CircuitTable.Circuits[10].circuitId | Manoco |)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.basic.datadrivenForGetSD.GETRequestTestSD.user_checks_data_at_path_having_value_in_jason(GETRequestTestSD.java:37)
+	at ?.Then user checks data at path "MRData.CircuitTable.Circuits[10].circuitId" having value "Manoco" in jason(GetRequestDataDriven.feature:7)
+
+| MRData.CircuitTable.Circuits[10].circuitId | Manoco |  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.basic.datadrivenForGetSD.GETRequestTestSD.user_checks_data_at_path_having_value_in_jason(GETRequestTestSD.java:37)
+	at ?.Then user checks data at path "MRData.CircuitTable.Circuits[10].circuitId" having value "Manoco" in jason(GetRequestDataDriven.feature:7)
+
